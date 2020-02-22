@@ -17,6 +17,7 @@ class App extends React.Component {
           <BrowserRouter>
             <React.Fragment>
               <Route exact path="/" component={Home}/> 
+              <Route exact path="/wellcome" component={Home}/> 
             </React.Fragment>
           </BrowserRouter>
         </MuiThemeProvider>
