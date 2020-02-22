@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wellcome/static/css/main.d1b05096.chunk.css",
-    "main.js": "/wellcome/static/js/main.fc76ae39.chunk.js",
-    "main.js.map": "/wellcome/static/js/main.fc76ae39.chunk.js.map",
+    "main.js": "/wellcome/static/js/main.88a936dc.chunk.js",
+    "main.js.map": "/wellcome/static/js/main.88a936dc.chunk.js.map",
     "runtime-main.js": "/wellcome/static/js/runtime-main.48b2d760.js",
     "runtime-main.js.map": "/wellcome/static/js/runtime-main.48b2d760.js.map",
     "static/js/2.cd7cac2e.chunk.js": "/wellcome/static/js/2.cd7cac2e.chunk.js",
     "static/js/2.cd7cac2e.chunk.js.map": "/wellcome/static/js/2.cd7cac2e.chunk.js.map",
     "index.html": "/wellcome/index.html",
-    "precache-manifest.bdceb245abe07b777ab165ac7e17116b.js": "/wellcome/precache-manifest.bdceb245abe07b777ab165ac7e17116b.js",
+    "precache-manifest.3f4bcbc476f433ba6efd065fcd79fd3a.js": "/wellcome/precache-manifest.3f4bcbc476f433ba6efd065fcd79fd3a.js",
     "service-worker.js": "/wellcome/service-worker.js",
     "static/css/main.d1b05096.chunk.css.map": "/wellcome/static/css/main.d1b05096.chunk.css.map",
     "static/js/2.cd7cac2e.chunk.js.LICENSE.txt": "/wellcome/static/js/2.cd7cac2e.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.48b2d760.js",
     "static/js/2.cd7cac2e.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.fc76ae39.chunk.js"
+    "static/js/main.88a936dc.chunk.js"
   ]
 }
