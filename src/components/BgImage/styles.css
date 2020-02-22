@@ -1,0 +1,8 @@
+.imgCover {
+  height: 100%;
+  background-color: #ff8383;
+  background-blend-mode: exclusion;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
