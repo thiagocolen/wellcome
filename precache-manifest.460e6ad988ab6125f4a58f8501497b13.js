@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77aa6eef7e8021267c46778ca4009fdf",
+    "revision": "64aa89df87de2da05ab720ddc0bc2b2a",
     "url": "/wellcome/index.html"
   },
   {
-    "revision": "9eee859d0c949523e328",
+    "revision": "0c8f548c0bab16807d2d",
     "url": "/wellcome/static/css/main.a8fd7678.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wellcome/static/js/2.84fed06d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9eee859d0c949523e328",
-    "url": "/wellcome/static/js/main.9130b582.chunk.js"
+    "revision": "0c8f548c0bab16807d2d",
+    "url": "/wellcome/static/js/main.bc5424d2.chunk.js"
   },
   {
     "revision": "8e7bac524dd317ca45b2",
