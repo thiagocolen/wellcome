@@ -7,6 +7,7 @@
   font-family: "Holtwood One SC", sans-serif;  
   text-align: center; 
   mix-blend-mode: difference;
+  user-select: none;
 }
 
 @media (max-width: 575px) {

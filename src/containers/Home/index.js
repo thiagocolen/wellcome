@@ -6,6 +6,7 @@ import { connect } from 'react-redux'
 // CUSTOM COMPONENTS
 import BgImage from '../../components/BgImage'
 import SuperTitle from '../../components/SuperTitle'
+import Weather from '../../components/Weather'
 
 import * as actions from '../../actions/actions' 
 
@@ -19,6 +20,7 @@ class Home extends React.Component {
   componentDidMount() {
     this.getGeolocation()
     this.props.actions.getRandomPhoto()
+    
   }
 
 
@@ -39,6 +41,9 @@ class Home extends React.Component {
     return(
       <React.Fragment>
 
+        <Weather 
+          weatherData={ this.props.weather } />
+
         <SuperTitle title="THIAGO COLEN"/>
 
         <BgImage imageUrl={
@@ -51,11 +56,13 @@ class Home extends React.Component {
 }
 
 Home.propTypes = {
-  randomPhoto: PropTypes.object
+  randomPhoto: PropTypes.object,
+  weather: PropTypes.object
 }
 
 const mapStateToProps = state => ({
-  randomPhoto: state.homeReducer.randomPhoto
+  randomPhoto: state.homeReducer.randomPhoto,
+  weather: state.homeReducer.weather
 })
 
 const mapDispatchToProps = dispatch => ({

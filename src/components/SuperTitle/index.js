@@ -9,7 +9,10 @@ const SuperTitle = ({ title }) => {
   
   WebFont.load({
     google: {
-      families: ['Holtwood+One+SC']
+      families: [
+        'Holtwood+One+SC',
+        'Roboto'
+      ]
     }
   })
   
