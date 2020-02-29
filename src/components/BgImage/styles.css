@@ -4,5 +4,13 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	cursor: pointer;
 }
+
+.iconButton {
+	position: absolute;
+	cursor: pointer;
+	top: 10px;
+	left: 10px;
+	/*mix-blend-mode: overlay;*/
+}
+

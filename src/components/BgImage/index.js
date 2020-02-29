@@ -4,6 +4,9 @@ import PropTypes from 'prop-types'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 
+import LayersIcon from '@material-ui/icons/Layers';
+import grey from '@material-ui/core/colors/grey';
+
 import * as actions from '../../actions/actions' 
 
 import './styles.css'
@@ -60,19 +63,15 @@ class BgImage extends React.Component {
 
 
 	render() {
-		const BackgroundLoader = () => {
-				
-			return (
-				<React.Fragment>
-					<div onClick={ this.changeBlendMode } 
-						style={ this.state.imgCover } 
-						className="imgCover"></div>
-				</React.Fragment>
-			)
-		}
-
 		return(
-			<BackgroundLoader />
+			<React.Fragment>
+				<div onClick={ this.changeBlendMode }
+					className="iconButton">
+					<LayersIcon style={{ color: grey[50] }} />
+				</div>
+				<div style={ this.state.imgCover } 
+					className="imgCover"></div>
+			</React.Fragment>
 		)
 	}
 
