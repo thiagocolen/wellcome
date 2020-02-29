@@ -2,7 +2,7 @@ class Api {
 
 	static getNews = () => (
 		fetch(new Request(
-			'http://newsapi.org/v2/top-headlines?' +
+			'https://newsapi.org/v2/top-headlines?' +
 			'country=us&' +
 			'apiKey=d281384e581d44fda67ca1395c4d904a'
 		))
