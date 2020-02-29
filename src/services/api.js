@@ -5,7 +5,6 @@ class Api {
   static getRandomPhoto = () => (
     fetch('https://api.unsplash.com/photos/random/?client_id=7bb44829ebfb671742ab6f123c6581e0eca237754773b58d64940a82c82065f9')
       .then((res) => {
-        console.log('res', res)
         return res.json()
       })
       .catch((err) => { 
