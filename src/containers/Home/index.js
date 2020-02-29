@@ -26,7 +26,6 @@ class Home extends React.Component {
 	}
 
 	componentDidMount() {
-		this.props.actions.getRandomPhoto()
 	}
 
 
@@ -36,15 +35,11 @@ class Home extends React.Component {
 
 				<SuperTitle title="THIAGO COLEN"/>
 
-				<BgImage imageUrl={
-					this.props.randomPhoto.urls && 
-					this.props.randomPhoto.urls.regular } />
+				<BgImage />
 					
 				<Weather />
 
 				<TextBar />
-
-
 
 				<div style={this.textStyle}>
 					Phasellus turpis quam, lacinia in tincidunt quis, rhoncus vitae augue. Vivamus porttitor imperdiet enim ut mattis. Proin id sagittis arcu, at fringilla lectus. Donec iaculis, arcu et dapibus dignissim, ipsum lectus auctor sem, non condimentum odio ipsum a neque. Vestibulum facilisis lacus id enim fringilla, quis placerat augue eleifend. Donec gravida leo tempor, pharetra tortor dapibus, consequat ipsum. Sed facilisis porta nulla non dapibus. Curabitur eu mattis felis, non auctor augue. Nullam efficitur quam et consectetur mollis. Sed hendrerit sollicitudin pharetra. Pellentesque sit amet ligula id enim aliquam rhoncus et nec arcu. Aenean sed vehicula ipsum. Suspendisse sodales hendrerit purus eu porta. Nullam et consequat enim. Sed justo ligula, tempor eu massa eget, fermentum imperdiet nisl. Nam commodo nisi ac erat condimentum, sed pharetra velit dignissim.
@@ -64,7 +59,6 @@ Home.propTypes = {
 }
 
 const mapStateToProps = state => ({
-	randomPhoto: state.homeReducer.randomPhoto
 })
 
 const mapDispatchToProps = dispatch => ({

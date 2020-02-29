@@ -53,10 +53,10 @@ class TextBar extends React.Component {
     render() {
 
         const Articles = () => {
-            let result = this.state.articles.map((item) => {
+            let result = this.state.articles.map((item, index) => {
                 const formatedTitle =  item.title.split(' - ')
                 return ( 
-                    <span> 
+                    <span key={index}> 
                         &nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;
                         { formatedTitle[0] }
                         <small>&nbsp;-&nbsp;{ formatedTitle[1] }</small>
@@ -70,7 +70,7 @@ class TextBar extends React.Component {
             <React.Fragment>
                 <div className="text-bar">
                     <p style={this.state.textStyle} ref={this.weatherText}>
-                        <Articles/>
+                        <Articles />
                     </p>
                 </div>
             </React.Fragment>
