@@ -71,7 +71,6 @@ class Weather extends React.Component {
 
     getCountry = (prevProps) => {
         if (this.props.weather.sys !== prevProps.weather.sys) {
-            console.log('### getCountry opa');
             this.setState({
                 country: this.props.weather.sys.country
             })
@@ -88,7 +87,7 @@ class Weather extends React.Component {
                 )
             })
         } else {
-            console.log('$$$ Geolocation is not supported by this browser.')
+            console.log('Geolocation is not supported by this browser.')
         }
     }
 
