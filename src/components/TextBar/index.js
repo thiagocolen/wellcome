@@ -20,7 +20,7 @@ class TextBar extends React.Component {
 
     componentDidMount() {
         this.getNews()
-        setInterval(this.animateText, 10)
+        setInterval(this.animateText, 7)
     }
 
     componentDidUpdate(prevProps, prevState, snapshot) { 
@@ -68,6 +68,9 @@ class TextBar extends React.Component {
 
         return(
             <React.Fragment>
+                <div className="credits">
+                    <a href="https://newsapi.org/" target="_blank">newsapi.org</a>
+                </div>
                 <div className="text-bar">
                     <p style={this.state.textStyle} ref={this.weatherText}>
                         <Articles />

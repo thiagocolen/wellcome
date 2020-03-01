@@ -2,6 +2,7 @@ import * as types from '../constants/actionTypes'
 
 const initialState = {
   randomPhoto: {},
+  sorry: ''
 }
 
 export default function todos(state = initialState, action) {
@@ -10,13 +11,22 @@ export default function todos(state = initialState, action) {
 
     
     case `${types.GET_RANDOM_PHOTO}_FULFILLED`:
-      return {
-        ...state,
-        randomPhoto: {
-          loaciton: { ...action.payload.location },
-          urls: { ...action.payload.urls }
+      
+      if (action.payload.location !== undefined) {
+        return {
+          ...state,
+          randomPhoto: {
+            loaciton: { ...action.payload.location },
+            urls: { ...action.payload.urls }
+          }
+        }
+      } else {
+        return {
+          ...state,
+          sorry: { ...action.payload }
         }
       }
+      
 
       
     default:

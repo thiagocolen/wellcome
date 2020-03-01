@@ -1,16 +1,41 @@
 .imgCover {
 	height: 100%;
-	background-color: #ff8383;
+	/*background-color: #ff8383;*/
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.iconButton {
+.iconBlendButton {
 	position: absolute;
 	cursor: pointer;
-	top: 10px;
-	left: 10px;
+	top: 6px;
+	left: 6px;
 	/*mix-blend-mode: overlay;*/
 }
 
+.iconColorButton {
+	position: absolute;
+	cursor: pointer;
+	top: 34px;
+	left: 6px;
+	/*mix-blend-mode: overlay;*/
+}
+
+
+.iconImageButton {
+	position: absolute;
+	cursor: pointer;
+	top: 64px;
+	left: 6px;
+	/*mix-blend-mode: overlay;*/
+}
+
+.iconCaptureButton {
+	position: absolute;
+	cursor: pointer;
+	top: 92px;
+	left: 6px;
+	/*mix-blend-mode: overlay;*/
+	
+}

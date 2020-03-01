@@ -17,8 +17,15 @@ class Api {
 
 	
 	static getRandomPhoto = () => (
-		fetch('https://api.unsplash.com/photos/random/?client_id=7bb44829ebfb671742ab6f123c6581e0eca237754773b58d64940a82c82065f9')
+		fetch(
+			'https://api.unsplash.com/photos/random/?' + 
+			'client_id=7bb44829ebfb671742ab6f123c6581e0eca237754773b58d64940a82c82065f9'
+		)
 		.then((res) => {
+			if (res.status === 403) {
+				return { msg: 'sorry, I am tired, comeback later...' }
+			}
+			
 			return res.json()
 		})
 		.catch((err) => {

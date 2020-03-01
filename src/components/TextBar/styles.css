@@ -6,18 +6,43 @@
     background-color: black;
     overflow: hidden;
     height: 36px;
-  }
+}
   
-  .text-bar p {
+.text-bar p {
     font-size: 16px;
     font-family: "Roboto", sans-serif;  
     font-weight: 600;
     color: yellow;
     white-space: nowrap;
     text-transform: uppercase;
-    letter-spacing: 1px;
-  
+    letter-spacing: 2px;
     position: absolute;
     margin-top: 7px;
-  }
+}
+  
+.credits {
+    position: absolute;
+    bottom: 36px;
+    right: 0px;
+    font-size: 6px;
+    font-family: Tahoma, Geneva, sans-serif; 
+    padding: 4px 4px 0px 8px;
+    text-transform: uppercase;
+    background-color: black;
+    letter-spacing: 1px;
+    border-top-left-radius: 10px;
+}
+
+.credits a:link,
+.credits a:visited,
+.credits a:hover,
+.credits a:active {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.credits a:hover {
+    color: yellow;
+}
+  
   
