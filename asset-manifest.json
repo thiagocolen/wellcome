@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/wellcome/static/css/main.8df48d85.chunk.css",
-    "main.js": "/wellcome/static/js/main.15e61aee.chunk.js",
-    "main.js.map": "/wellcome/static/js/main.15e61aee.chunk.js.map",
+    "main.css": "/wellcome/static/css/main.99742038.chunk.css",
+    "main.js": "/wellcome/static/js/main.0168f2fa.chunk.js",
+    "main.js.map": "/wellcome/static/js/main.0168f2fa.chunk.js.map",
     "runtime-main.js": "/wellcome/static/js/runtime-main.0f9b9aa9.js",
     "runtime-main.js.map": "/wellcome/static/js/runtime-main.0f9b9aa9.js.map",
-    "static/js/2.d3170517.chunk.js": "/wellcome/static/js/2.d3170517.chunk.js",
-    "static/js/2.d3170517.chunk.js.map": "/wellcome/static/js/2.d3170517.chunk.js.map",
+    "static/js/2.93932426.chunk.js": "/wellcome/static/js/2.93932426.chunk.js",
+    "static/js/2.93932426.chunk.js.map": "/wellcome/static/js/2.93932426.chunk.js.map",
     "index.html": "/wellcome/index.html",
-    "precache-manifest.0a21ef17d841fb64699b437277f05d7d.js": "/wellcome/precache-manifest.0a21ef17d841fb64699b437277f05d7d.js",
+    "precache-manifest.202cb21712a2835530aa512840ba5d90.js": "/wellcome/precache-manifest.202cb21712a2835530aa512840ba5d90.js",
     "service-worker.js": "/wellcome/service-worker.js",
-    "static/css/main.8df48d85.chunk.css.map": "/wellcome/static/css/main.8df48d85.chunk.css.map",
-    "static/js/2.d3170517.chunk.js.LICENSE.txt": "/wellcome/static/js/2.d3170517.chunk.js.LICENSE.txt"
+    "static/css/main.99742038.chunk.css.map": "/wellcome/static/css/main.99742038.chunk.css.map",
+    "static/js/2.93932426.chunk.js.LICENSE.txt": "/wellcome/static/js/2.93932426.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0f9b9aa9.js",
-    "static/js/2.d3170517.chunk.js",
-    "static/css/main.8df48d85.chunk.css",
-    "static/js/main.15e61aee.chunk.js"
+    "static/js/2.93932426.chunk.js",
+    "static/css/main.99742038.chunk.css",
+    "static/js/main.0168f2fa.chunk.js"
   ]
 }
